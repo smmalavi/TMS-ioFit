@@ -318,7 +318,7 @@ yidnm1=yid_fim_baseline;
             'LineWidth',1,...
             'Color','b');
         
-        AX=legend('Baseline sample','Previous TMS sample','New TMS sample','New estimate of IO curve','Previous estimate of IO cruve','location','northwest');
+        AX=legend('Baseline sample','Previous TMS sample','New TMS sample','New estimate of IO curve','fit of IO cruve','location','northwest');
         
         
         handles.pdpnts=pdpnts;
