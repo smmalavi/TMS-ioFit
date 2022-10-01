@@ -6,8 +6,11 @@
 
 2022: Labels of boxes and figures have been modified
 
-Visit http://tmsiofit.com/ for details
 
-For techncial supports, please feel free to contact Mahdi Alavi at mahdi.alavi.work[at]gmail.com
+## Support: 
+
+Please visit http://tmsiofit.com/ for training videos & document
+
+For further techncial supports, please feel free to contact us at mahdi.alavi.work[at]gmail.com
 
   
