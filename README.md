@@ -7,7 +7,7 @@
 2022: Labels of boxes and figures have been modified
 
 
-## Support: 
+## Supports: 
 
 Please visit http://tmsiofit.com/ for training videos & document
 
