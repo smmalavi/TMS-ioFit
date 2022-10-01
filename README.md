@@ -1,6 +1,6 @@
 # TMS-ioFit-2019
 
-Editions:
+## Editions:
 
 2019: Closed-loop; Automatic analysis and recording of EMG data; Automatic tuning of TMS amplitude; Support of both optimal and uniform sampling methods.
 
