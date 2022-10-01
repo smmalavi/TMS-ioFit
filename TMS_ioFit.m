@@ -22,7 +22,7 @@ function varargout = TMS_ioFit(varargin)
 
 % Edit the above text to modify the response to help TMS_ioFit
 
-% Last Modified by GUIDE v2.5 20-Dec-2019 15:13:50
+% Last Modified by GUIDE v2.5 01-Oct-2022 07:45:48
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -1470,7 +1470,7 @@ initial=handles.initial;
          axes(handles.axes1);   
       if handles.plot_animation == 1 
           hold on
-          xlabel('Pulse amplitude (% max output)');
+          xlabel('TMS pulse amplitude (% max simulator output, MSO)');
           ylabel('MEP amplitude $(\mu V_{pk-pk})$','interpreter','latex');
           %title('FIM SPE')
           ax1=gca;
@@ -3428,3 +3428,10 @@ function edit34_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- Executes on mouse press over axes background.
+function axes1_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to axes1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
