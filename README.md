@@ -11,6 +11,6 @@
 
 Please visit http://tmsiofit.com/ for training videos & document
 
-For further techncial supports, please feel free to contact us at mahdi.alavi.work[at]gmail.com
+For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
 
   
