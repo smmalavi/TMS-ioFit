@@ -4,9 +4,7 @@ TMS ioFit is an open-source Matlab-based toolbox for optimal estimation of neura
 
 TMS ioFit administers a train of TMS pulses, updates the estimation after each pulse, and continues the process until the IO curve and parameters are estimated with a desired level of accuracy.
 
-TMS ioFit also supports the input-output curve estimation by using the conventional uniform sampling method.
-
-The current version of TMS ioFit supports uniform and optimal sampling methods. In the uniform sampling, the intensity of TMS pulses is uniformly distributed. In the optimal sampling method, the intensity of TMS pulses is chosen based on the Fisher information matrix (FIM). In comparison with the uniform sampling method, the FIM-based optimal sampling method results in more accurate estimation of the IO curve and parameters with fewer TMS pulses. 
+TMS ioFit supports the IO curve estimation by using optimal and uniform sampling methods. In the uniform sampling, the intensity of TMS pulses is uniformly distributed. In the optimal sampling method, the intensity of TMS pulses is chosen based on the Fisher information matrix (FIM). In comparison with the uniform sampling method, the FIM-based optimal sampling method results in more accurate estimation of the IO curve and parameters with fewer TMS pulses. 
 
 The fundamentals of FIM based IO curve estimation has been discussed in [1]. 
 
