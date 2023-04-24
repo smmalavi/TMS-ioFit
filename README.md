@@ -24,11 +24,11 @@ The required hardware and software include:
 
 – A device for the generation of trigger signal. TMS companies might have their own trigger box. 
 
-– [MAGIC toolbox] (https://github.com/nigelrogasch/MAGIC/wiki)
+– [MAGIC toolbox](https://github.com/nigelrogasch/MAGIC/wiki/)
 
-– [TMS ioFit toolbox] (https://github.com/smmalavi/TMS-ioFit)
+– [TMS ioFit toolbox](https://github.com/smmalavi/TMS-ioFit/)
 
-We tested TMS ioFit by using the MagVenture MagPro X100 device, with the [TMSi Mobi Mini EMG recorder] (https://www.tmsi.com/). The [National Instruments‘ myDAQ University Kit] (https://www.ni.com/en-ca/shop/select/mydaq-student-data-acquisition-device?modelId=134166) was used for the generation of the trigger signal. The hardware connections are described in the following video. Download and install the TMSi Mobi Mini driver and Matlab interface from here, and the MAGIC toolbox from here. Copy all files of the TMS ioFit toolbox from here to the directory of TMSi_Matlab_Interface\trunk\src. In order to run, write TMS_ioFit in the Matlab workspace. 
+We tested TMS ioFit by using the MagVenture MagPro X100 device, with the [TMSi Mobi Mini EMG recorder](https://www.tmsi.com/). The [National Instruments myDAQ University Kit](https://www.ni.com/en-ca/shop/select/mydaq-student-data-acquisition-device?modelId=134166/) was used for the generation of the trigger signal. The hardware connections are described in the following video. Download and install the TMSi Mobi Mini driver and Matlab interface from here, and the MAGIC toolbox from here. Copy all files of the TMS ioFit toolbox from here to the directory of TMSi_Matlab_Interface\trunk\src. In order to run, write TMS_ioFit in the Matlab workspace. 
 
 ## Overall Estimation Algorithm
 
