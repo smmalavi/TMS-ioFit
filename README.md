@@ -49,12 +49,12 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 
 #### IO curve estimation using TMS ioFit optimal sampling
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Kn1R224f_fs" target="_blank">
- <img src="http://img.youtube.com/vi/Kn1R224f_fs/hqdefault.jpg" alt="IO curve estimation using optimal sampling" width="500" height="320" border="10" />
+ <img src="http://img.youtube.com/vi/Kn1R224f_fs/hqdefault.jpg" alt="IO curve estimation using optimal sampling" width="460" height="320" border="10" />
 </a>
 
 #### IO curve estimation using TMS ioFit uniform sampling
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=w3zpD6oQbhs" target="_blank">
- <img src="http://img.youtube.com/vi/w3zpD6oQbhs/hqdefault.jpg" alt="IO curve estimation using uniform sampling" width="500" height="320" border="10" />
+ <img src="http://img.youtube.com/vi/w3zpD6oQbhs/hqdefault.jpg" alt="IO curve estimation using uniform sampling" width="460" height="320" border="10" />
 </a>
 
 ## Team
