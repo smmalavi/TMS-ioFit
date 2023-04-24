@@ -62,7 +62,7 @@ A multidisciplinary research group has been contributing to the design and devel
 - Judy Cheng (Co-Op Student), University of British Columbia
 - Leila Noorbala (PhD Student), Shahid Beheshti University
 
-## Warranty, Copyright and Licensing: 
+## Warranty, Copyright and Licensing
 
 The copyrights of this software are owned by Duke University. As such, two licenses to this software are offered:
 1- An open source distribution under the MIT license (see below) for non-commercial and academic use only.
@@ -80,11 +80,10 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Supports: 
-
-For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
-
 ## Acknowledgement  
 
 ![image](https://user-images.githubusercontent.com/46087039/233886595-83ecc5b4-4613-4f2c-8bc0-5d1bbcad9ce7.png)
 
+## Supports
+
+For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
