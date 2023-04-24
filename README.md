@@ -6,7 +6,7 @@ TMS ioFit estimates neural recruitment or input-output (IO) curves and parameter
 
 TMS ioFit was developed by the Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine.
 
-## Editions log:
+## Editions log
 
 2019: Closed-loop; Automatic analysis and recording of EMG data; Automatic tuning of TMS amplitude; Support of both optimal and uniform sampling methods.
 
@@ -44,6 +44,12 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 [This tutorial](http://mahdialavi.com/index.php/tutorial-external-control-of-tms-device-by-using-magic-toolbox/) provides examples how the TMS device is controlled externally by using the MAGIC toolbox from Matlab. Depending on the device, magventure(‘COMx’), magstim(‘COMx’) or doumag(‘COMx’) must be used.
 
 ![image](https://user-images.githubusercontent.com/46087039/233884780-23285143-0548-4f7c-96eb-63ffe6b9baf8.png)
+
+## Demonstration Videos 
+IO curve estimation using optimal sampling
+https://www.youtube.com/watch?v=Kn1R224f_fs
+
+
 
 ## Team
 
