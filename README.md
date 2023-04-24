@@ -49,7 +49,7 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Kn1R224f_fs
 " target="_blank"><img src="http://img.youtube.com/vi/Kn1R224f_fs/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="420" height="315" border="10" /></a>
 
 
 #### IO curve estimation using TMS ioFit optimal sampling
