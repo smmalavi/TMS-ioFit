@@ -26,7 +26,7 @@ The required hardware and software include:
 
 – A device for the generation of trigger signal. TMS companies might have their own trigger box. 
 
-– [MAGIC toolbox](https://github.com/nigelrogasch/MAGIC/wiki/)
+– [MAGIC toolbox](https://github.com/nigelrogasch/MAGIC/wiki/) [2]
 
 – [TMS ioFit toolbox](https://github.com/smmalavi/TMS-ioFit/)
 
@@ -104,3 +104,10 @@ For further techncial support, please feel free to contact us at mahdi.alavi.wor
 
 ## Reference 
 [1] SMM Alavi, SM Goetz, AV Peterchev, “Optimal estimation of neural recruitment curves using Fisher information: Application to Transcranial Magnetic Stimulation,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27(6), pp. 1320 – 1330, 2019.
+[2] F.H. Saatlou, N.C. Rogasch, M. Biabani, N.A. McNair, S.D. Pillen, T.R. Marshall, and T. O. Bergmann, “MAGIC: An open-source MATLAB toolbox for external control of transcranial magnetic stimulation devices,” Brain Stimulation, Vol. 11, pp. 1189 – 1191, 2018.
+
+#### Other papers developed based on the FIM-based TMS
+- SMM Alavi, A Mahdi, F Vila-Rodriguez, SM Goetz, “Identifiability analysis and noninvasive online estimation of the first-order neural activation dynamics in the brain with closed-loop transcranial magnetic stimulation,” IEEE Transactions on Biomedical Engineering, 2023 (In Press).
+- SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “Closed-loop optimal and automatic tuning of pulse amplitude and width in EMG-guided controllable transcranial magnetic stimulation,” Biomedical Engineering Letters, 2023. (In Press)
+- SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “ A formalism for sequential estimation of neural membrane time constant and input–output curve towards selective and closed-loop transcranial magnetic stimulation,” Journal of Neural Engineering, 19, 056017, 2022.
+- SMM Alavi, SM Goetz, M Saif, “Input-Output Slope Curve Estimation in Neural Stimulation Based on Optimal Sampling Principles,” Journal of Neural Engineering, 18(4), 046071, 2021.
