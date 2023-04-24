@@ -6,6 +6,12 @@ TMS ioFit estimates neural recruitment or input-output (IO) curves and parameter
 
 TMS ioFit was developed by the Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine.
 
+## Editions log:
+
+2019: Closed-loop; Automatic analysis and recording of EMG data; Automatic tuning of TMS amplitude; Support of both optimal and uniform sampling methods.
+
+2022: Modified labels of boxes and figures.
+
 ## Hardware and Software
 
 ![image](https://user-images.githubusercontent.com/46087039/233884264-30926e12-dc85-491b-9bc1-108ca87080a1.png)
@@ -40,35 +46,22 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 ![image](https://user-images.githubusercontent.com/46087039/233884780-23285143-0548-4f7c-96eb-63ffe6b9baf8.png)
 
 ## Team
+
 A multidisciplinary research group has been contributing to the design and development of TMS ioFit and its clinical tests and research. TMS ioFit was designed and developed by the Brain Stimulation Engineering Laboratory (BSEL), Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine in 2015. Its automatic and closed-loop version has successfully been tested on the human brain at the Non-Invasive Neurostimulation Therapies (NINET) Laboratory, Department of Psychiatry, Faculty of Medicine, University of British Columbia (UBC) in 2019.
 
-- S.M.Mahdi Alavi, PhD
-NINET lab, University of British Columbia
+- S.M.Mahdi Alavi (PhD), NINET lab, University of British Columbia
 
-- Stefan Goetz, PhD
-Duke University
+- Stefan Goetz (PhD), Duke University
 
-- Angel Peterchev, PhD
-Duke University
+- Angel Peterchev (PhD), Duke University
 
-- Fidel Vila-Rodriguez, MD, PhD, FRCPC, FAPA 
-University of British Columbia
+- Fidel Vila-Rodriguez (MD, PhD, FRCPC, FAPA), NINET, University of British Columbia
 
-- Meghan Chen, Co-Op Student
-University of British Columbia
+- Meghan Chen (Co-Op Student), University of British Columbia
 
-- Judy Cheng, Co-Op Student
-University of British Columbia
+- Judy Cheng (Co-Op Student), University of British Columbia
 
-- Leila Noorbala, PhD Student
-Shahid Beheshti University
-
-
-## Editions:
-
-2019: Closed-loop; Automatic analysis and recording of EMG data; Automatic tuning of TMS amplitude; Support of both optimal and uniform sampling methods.
-
-2022: Modified labels of boxes and figures.
+- Leila Noorbala (PhD Student), Shahid Beheshti University
 
 ## Warranty, Copyright and Licensing: 
 
@@ -88,11 +81,11 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-
-
 ## Supports: 
 
 For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
 
-  
+## Acknowledgement  
+
+![image](https://user-images.githubusercontent.com/46087039/233886595-83ecc5b4-4613-4f2c-8bc0-5d1bbcad9ce7.png)
+
