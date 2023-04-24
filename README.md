@@ -47,10 +47,14 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 
 ## Demonstration Videos 
 
-[![IO curve estimation using optimal sampling](https://img.youtube.com/vi/Kn1R224f_fs/default.jpg)](https://www.youtube.com/watch?v=Kn1R224f_fs)
-
+#### IO curve estimation using optimal sampling
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Kn1R224f_fs" target="_blank">
  <img src="http://img.youtube.com/vi/Kn1R224f_fs/mqdefault.jpg" alt="IO curve estimation using optimal sampling" width="500" height="280" border="10" />
+</a>
+
+#### O curve estimation using uniform sampling
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=w3zpD6oQbhs" target="_blank">
+ <img src="http://img.youtube.com/vi/w3zpD6oQbhs/mqdefault.jpg" alt="IO curve estimation using uniform sampling" width="500" height="280" border="10" />
 </a>
 
 ## Team
