@@ -110,5 +110,5 @@ For further techncial support, please feel free to contact us at mahdi.alavi.wor
 #### Other papers developed based on the FIM-based TMS
 - SMM Alavi, A Mahdi, F Vila-Rodriguez, SM Goetz, “Identifiability analysis and noninvasive online estimation of the first-order neural activation dynamics in the brain with closed-loop transcranial magnetic stimulation,” IEEE Transactions on Biomedical Engineering, 2023 (In Press).
 - SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “Closed-loop optimal and automatic tuning of pulse amplitude and width in EMG-guided controllable transcranial magnetic stimulation,” Biomedical Engineering Letters, 2023. (In Press)
-- SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “ A formalism for sequential estimation of neural membrane time constant and input–output curve towards selective and closed-loop transcranial magnetic stimulation,” Journal of Neural Engineering, 19, 056017, 2022.
+- SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “A formalism for sequential estimation of neural membrane time constant and input–output curve towards selective and closed-loop transcranial magnetic stimulation,” Journal of Neural Engineering, 19, 056017, 2022.
 - SMM Alavi, SM Goetz, M Saif, “Input-Output Slope Curve Estimation in Neural Stimulation Based on Optimal Sampling Principles,” Journal of Neural Engineering, 18(4), 046071, 2021.
