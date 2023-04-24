@@ -61,14 +61,14 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 
 A multidisciplinary research group has been contributing to the design and development of TMS ioFit and its clinical tests and research. TMS ioFit was designed and developed by the [Brain Stimulation Engineering Laboratory (BSEL)](https://sites.google.com/view/bsel/), Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine in 2015. Its automatic and closed-loop version has successfully been tested on the human brain at the [Non-Invasive Neurostimulation Therapies (NINET) Laboratory](https://ninet.med.ubc.ca/), Department of Psychiatry, Faculty of Medicine, University of British Columbia (UBC) in 2019.
 
-### Core Members
+### Core Members (A-Z)
 
 - S.M.Mahdi Alavi, PhD
 - Stefan Goetz, PhD
 - Angel Peterchev, PhD
 - Fidel Vila-Rodriguez, MD, PhD, FRCPC, FAPA
 
-### Students
+### Students (A-Z)
 
 - Meghan Chen (Co-Op Student), University of British Columbia
 - Judy Cheng (Co-Op Student), University of British Columbia
