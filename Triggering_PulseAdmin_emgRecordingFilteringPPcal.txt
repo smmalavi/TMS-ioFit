@@ -1,0 +1,115 @@
+% This file will provide the line-by-line code from setting TMS, NI DAQ and
+% Mobi Mini devices, triggering, pulse administration, 
+% EMG data post analysis, and peak-to-peak calculation.
+% SMM Alavi, October 2022
+
+
+% Set-up the NI DAQ trigger 
+s=daq.createSession('ni');
+addDigitalChannel(s,'myDAQ1','Port0/Line0','OutputOnly');
+outputSingleScan(s,[0]);
+
+% Set-up TMS device
+myMV = magventure('COM4');  
+% Connect to TMS device
+myMV.connect();
+% Enable TMS device
+myMV.arm();
+% Set TMS pulse amplitude
+myMV.setAmplitude(round(100*handles.initialization(1,1)));
+
+
+%========= Set-up Mobi Mini
+samples=[];
+library = TMSi.Library('bluetooth');
+
+% Step 2: Find device to connect to. Keep on trying every second.
+while numel(library.devices) == 0
+    library.refreshDevices()
+    pause(1);
+end
+
+device = library.getFirstDevice();
+
+sampler = device.createSampler();
+      
+sampler.setSampleRate(handles.TMSi_sampling_rate);
+sampler.setReferenceCalculation(true);
+      
+sampler.connect();
+sampler.start();
+  
+      
+      for i=1:handles.TMSi_nloops
+          samples = [samples sampler.sample()];
+          
+          if i==handles.TMSi_TrigON
+              % Trigger TMSi 
+              outputSingleScan(s,[1]);
+              % Trigger TMS Device
+              myMV.fire();
+          end
+      
+      end
+      outputSingleScan(s,[0]);
+      
+      
+% Disable TMS device
+myMV.disarm();
+% Disconnect TMS device 
+myMV.disconnect(); 
+
+% Stop Mbi Mini
+sampler.stop();
+sampler.disconnect();
+
+
+% Check MEP==0. If yes, re-apply the same pulse as described in TMS_ioFit.m
+
+% get MEP, filter, and compute peak-to-peak
+
+% save sample(1,:) in MEP_TMSi
+handles.MEP_TMSi=evalin('base','MEP_TMSi');
+handles.MEP_TMSi(1,1:length(samples(1,:)))=samples(1,:);
+assignin('base','MEP_TMSi',handles.MEP_TMSi);
+
+% remove the mean of MEP_TMSi and save it as MEP_TMSi3
+handles.MEP_TMSi3=evalin('base','MEP_TMSi3');   
+handles.MEP_TMSi3(1,1:length(samples))=samples(1,:)-mean(samples(1,:));
+assignin('base', 'MEP_TMSi3',handles.MEP_TMSi3);
+         
+% save sample(3,:) in trig_TMSi. This is the trigger signal 
+handles.Trig_TMSi=evalin('base','Trig_TMSi');
+handles.Trig_TMSi(1,1:length(samples(3,:)))=samples(3,:);
+assignin('base','Trig_TMSi',handles.Trig_TMSi);
+
+% get the MEP signal when tigger is ON
+handles.TMS_latency_sample_no=round(handles.TMSi_sampling_rate*handles.TMS_latency*10^-3);
+assignin('base','TMS_latency_sample_no',handles.TMS_latency_sample_no);
+
+trig_on=min(find(samples(3,:)==8));
+trig_off=max(find(samples(3,:)==8));
+handles.x_art=evalin('base','x_art');
+handles.x_art(1,1)=trig_on;
+handles.x_art(1,2)=trig_off;
+assignin('base','x_art',handles.x_art);
+
+% Filtering
+if handles.initialization(1,1) > .50
+    filt1 = fdesign.highpass('n,f3db',4,2*handles.hpfilt_freq*(1/handles.TMSi_sampling_rate)); %high-pass filter, cut off frequency at 10Hz, sampling frequency of 1kHz
+else
+    filt1 = fdesign.highpass('n,f3db',4,2*handles.hpfilt_freq*(1/handles.TMSi_sampling_rate)); 
+end
+
+hpFilt = design(filt1,'butter');
+         
+         %handles.MEP_TMSi2(1,1:handles.x_art(1,2)-handles.x_art(1,1)+1)=filter(hpFilt,handles.MEP_TMSi3(1,handles.x_art(1,1):handles.x_art(1,2))); 
+         handles.MEP_TMSi2(1,1:length(samples(1,:)))=filter(hpFilt,handles.MEP_TMSi3(1,1:length(samples(1,:)))); 
+         assignin('base', 'MEP_TMSi2',handles.MEP_TMSi2);
+
+
+% compute peak-to-peak         
+handles.initialization(2,1)=peak2peak(handles.MEP_TMSi2(1,handles.x_art(1,1)+handles.TMS_latency_sample_no:handles.x_art(1,2)));   
+assignin('base','initialization',handles.initialization);
+set(handles.edit20,'String',num2str(handles.initialization(2,1)));
+
