@@ -24,11 +24,11 @@ The required hardware and software include:
 
 – A device for the generation of trigger signal. TMS companies might have their own trigger box. 
 
-– MAGIC toolbox
+– [MAGIC toolbox] (https://github.com/nigelrogasch/MAGIC/wiki)
 
-– TMS ioFit toolbox
+– [TMS ioFit toolbox] (https://github.com/smmalavi/TMS-ioFit)
 
-We tested TMS ioFit by using the MagVenture MagPro X100 device, with the TMSi Mobi Mini EMG recorder. The National Instruments‘ myDAQ University Kit was used for the generation of the trigger signal. The hardware connections are described in the following video. Download and install the TMSi Mobi Mini driver and Matlab interface from here, and the MAGIC toolbox from here. Copy all files of the TMS ioFit toolbox from here to the directory of TMSi_Matlab_Interface\trunk\src. In order to run, write TMS_ioFit in the Matlab workspace. 
+We tested TMS ioFit by using the MagVenture MagPro X100 device, with the [TMSi Mobi Mini EMG recorder] (https://www.tmsi.com/). The [National Instruments‘ myDAQ University Kit] (https://www.ni.com/en-ca/shop/select/mydaq-student-data-acquisition-device?modelId=134166) was used for the generation of the trigger signal. The hardware connections are described in the following video. Download and install the TMSi Mobi Mini driver and Matlab interface from here, and the MAGIC toolbox from here. Copy all files of the TMS ioFit toolbox from here to the directory of TMSi_Matlab_Interface\trunk\src. In order to run, write TMS_ioFit in the Matlab workspace. 
 
 ## Overall Estimation Algorithm
 
@@ -47,7 +47,7 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 
 ## Team
 
-A multidisciplinary research group has been contributing to the design and development of TMS ioFit and its clinical tests and research. TMS ioFit was designed and developed by the Brain Stimulation Engineering Laboratory (BSEL), Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine in 2015. Its automatic and closed-loop version has successfully been tested on the human brain at the Non-Invasive Neurostimulation Therapies (NINET) Laboratory, Department of Psychiatry, Faculty of Medicine, University of British Columbia (UBC) in 2019.
+A multidisciplinary research group has been contributing to the design and development of TMS ioFit and its clinical tests and research. TMS ioFit was designed and developed by the [Brain Stimulation Engineering Laboratory (BSEL)] (https://sites.google.com/view/bsel/), Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine in 2015. Its automatic and closed-loop version has successfully been tested on the human brain at the [Non-Invasive Neurostimulation Therapies (NINET) Laboratory] (https://ninet.med.ubc.ca/), Department of Psychiatry, Faculty of Medicine, University of British Columbia (UBC) in 2019.
 
 ### Core Members
 
