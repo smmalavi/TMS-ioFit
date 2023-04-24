@@ -50,7 +50,7 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 [![IO curve estimation using optimal sampling](https://img.youtube.com/vi/Kn1R224f_fs/default.jpg)](https://www.youtube.com/watch?v=Kn1R224f_fs)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Kn1R224f_fs" target="_blank">
- <img src="http://img.youtube.com/vi/Kn1R224f_fs/mqdefault.jpg" alt="Watch the video" width="540" height="360" border="10" />
+ <img src="http://img.youtube.com/vi/Kn1R224f_fs/maxresdefault.jpg" alt="IO curve estimation using optimal sampling" width="540" height="360" border="10" />
 </a>
 
 ## Team
