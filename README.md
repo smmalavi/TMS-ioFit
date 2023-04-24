@@ -47,11 +47,8 @@ Likewise, other EMG devices can be connected by modifying the code as described 
 
 ## Demonstration Videos 
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=Kn1R224f_fs" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/Kn1R224f_f/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kn1R224f_f)
+
 
 [IO curve estimation using optimal sampling]()
 
