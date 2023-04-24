@@ -4,6 +4,8 @@ TMS ioFit is an open-source Matlab-based toolbox for closed-loop EMG-guided tran
 
 TMS ioFit estimates neural recruitment or input-output (IO) curves and parameters in a closed-loop system, by using the EMG data and  sequential estimation method. In the sequential estimation method, a train of TMS pulses is applied, the estimation is updated after each pulse, and the process continues until the IO curve and parameters are estimated with a desired level of accuracy. The current version of TMS ioFit supports uniform and optimal sampling methods. In the uniform sampling, the intensity of TMS pulses is uniformly distributed. In the optimal sampling method, the intensity of TMS pulses is chosen based on the Fisher information matrix (FIM). In comparison with the uniform sampling method, the FIM-based optimal sampling method results in more accurate estimation of the IO curve and parameters with fewer TMS pulses. 
 
+The fundamentals of FIM based IO curve estimation has been discussed in [1]. 
+
 TMS ioFit was developed by the Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine.
 
 ## Editions log
@@ -99,3 +101,6 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 ## Supports
 
 For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
+
+## Reference 
+[1] SMM Alavi, SM Goetz, AV Peterchev, “Optimal estimation of neural recruitment curves using Fisher information: Application to Transcranial Magnetic Stimulation,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27(6), pp. 1320 – 1330, 2019.
