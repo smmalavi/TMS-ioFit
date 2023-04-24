@@ -1,8 +1,12 @@
 # TMS ioFit
 
-TMS ioFit is an open-source Matlab-based toolbox for closed-loop EMG-guided transcranial magnetic stimulation (TMS), which refers to automatic and real-time adjustment of TMS parameters by using electromyography (EMG) data in a feedback system.
+TMS ioFit is an open-source Matlab-based toolbox for optimal estimation of neural recruitment or input-output (IO) curves and parameters with closed-loop automated transcranial magnetic stimulation (TMS). 
 
-TMS ioFit estimates neural recruitment or input-output (IO) curves and parameters in a closed-loop system, by using the EMG data and  sequential estimation method. In the sequential estimation method, a train of TMS pulses is applied, the estimation is updated after each pulse, and the process continues until the IO curve and parameters are estimated with a desired level of accuracy. The current version of TMS ioFit supports uniform and optimal sampling methods. In the uniform sampling, the intensity of TMS pulses is uniformly distributed. In the optimal sampling method, the intensity of TMS pulses is chosen based on the Fisher information matrix (FIM). In comparison with the uniform sampling method, the FIM-based optimal sampling method results in more accurate estimation of the IO curve and parameters with fewer TMS pulses. 
+TMS ioFit administers a train of TMS pulses, updates the estimation after each pulse, and continues the process until the IO curve and parameters are estimated with a desired level of accuracy.
+
+TMS ioFit also supports the input-output curve estimation by using the conventional uniform sampling method.
+
+The current version of TMS ioFit supports uniform and optimal sampling methods. In the uniform sampling, the intensity of TMS pulses is uniformly distributed. In the optimal sampling method, the intensity of TMS pulses is chosen based on the Fisher information matrix (FIM). In comparison with the uniform sampling method, the FIM-based optimal sampling method results in more accurate estimation of the IO curve and parameters with fewer TMS pulses. 
 
 The fundamentals of FIM based IO curve estimation has been discussed in [1]. 
 
@@ -30,7 +34,9 @@ The required hardware and software include:
 
 – [TMS ioFit toolbox](https://github.com/smmalavi/TMS-ioFit/)
 
-We tested TMS ioFit by using the [MagVenture MagPro X100 device](https://www.magventure.com/), with the [TMSi Mobi Mini EMG recorder](https://www.tmsi.com/). The [National Instruments myDAQ University Kit](https://www.ni.com/en-ca/shop/select/mydaq-student-data-acquisition-device?modelId=134166/) was used for the generation of the trigger signal. The hardware connections are described in the following video. Download and install the TMSi Mobi Mini driver and Matlab interface from [here](https://www.tmsi.com/), and the MAGIC toolbox from [here](https://github.com/smmalavi/TMS-ioFit-2019). Copy all files of the TMS ioFit toolbox from here to the directory of TMSi_Matlab_Interface\trunk\src. In order to run, write TMS_ioFit in the Matlab workspace. 
+Currently, we developed TMS ioFit to the [MagVenture MagPro X100 device](https://www.magventure.com/), with the [TMSi Mobi Mini EMG recorder](https://www.tmsi.com/). The [National Instruments myDAQ University Kit](https://www.ni.com/en-ca/shop/select/mydaq-student-data-acquisition-device?modelId=134166/) was used for the generation of the trigger signal. Download and install the TMSi Mobi Mini driver and Matlab interface from [here](https://www.tmsi.com/), and the MAGIC toolbox from [here](https://github.com/smmalavi/TMS-ioFit-2019). Copy all files of the TMS ioFit toolbox from here to the directory of TMSi_Matlab_Interface\trunk\src. 
+
+In order to run, write TMS_ioFit in the Matlab workspace. 
 
 ## Overall Estimation Algorithm
 
@@ -107,7 +113,7 @@ For further techncial support, please feel free to contact us at mahdi.alavi.wor
 
 [2] F.H. Saatlou, N.C. Rogasch, M. Biabani, N.A. McNair, S.D. Pillen, T.R. Marshall, and T. O. Bergmann, “MAGIC: An open-source MATLAB toolbox for external control of transcranial magnetic stimulation devices,” Brain Stimulation, Vol. 11, pp. 1189 – 1191, 2018.
 
-#### Further Readings
+### Further Readings
 - SMM Alavi, A Mahdi, F Vila-Rodriguez, SM Goetz, “Identifiability analysis and noninvasive online estimation of the first-order neural activation dynamics in the brain with closed-loop transcranial magnetic stimulation,” IEEE Transactions on Biomedical Engineering, 2023 (In Press).
 - SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “Closed-loop optimal and automatic tuning of pulse amplitude and width in EMG-guided controllable transcranial magnetic stimulation,” Biomedical Engineering Letters, 2023. (In Press)
 - SMM Alavi, F Vila-Rodriguez, A Mahdi, SM Goetz, “A formalism for sequential estimation of neural membrane time constant and input–output curve towards selective and closed-loop transcranial magnetic stimulation,” Journal of Neural Engineering, 19, 056017, 2022.
