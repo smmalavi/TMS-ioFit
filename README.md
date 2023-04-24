@@ -102,7 +102,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
 
-## Reference 
+## References 
 [1] SMM Alavi, SM Goetz, AV Peterchev, “Optimal estimation of neural recruitment curves using Fisher information: Application to Transcranial Magnetic Stimulation,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27(6), pp. 1320 – 1330, 2019.
 
 [2] F.H. Saatlou, N.C. Rogasch, M. Biabani, N.A. McNair, S.D. Pillen, T.R. Marshall, and T. O. Bergmann, “MAGIC: An open-source MATLAB toolbox for external control of transcranial magnetic stimulation devices,” Brain Stimulation, Vol. 11, pp. 1189 – 1191, 2018.
