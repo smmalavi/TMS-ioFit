@@ -8,7 +8,7 @@ TMS ioFit also supports the IO curve estimation by using the conventional unifor
 
 In comparison with the uniform sampling method, the FIM-based optimal sampling method results in more accurate estimation of the IO curve and parameters with fewer TMS pulses. 
 
-The fundamentals of FIM based IO curve estimation has been discussed in [1]. 
+The fundamentals of the FIM optimal-sampling-based IO curve estimation and comparison with the uniform sampling have been discussed in [1]. 
 
 TMS ioFit was developed by the Department of Psychiatry & Behavioral Sciences, Duke University School of Medicine.
 
