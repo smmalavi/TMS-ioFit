@@ -1,6 +1,6 @@
 # TMS ioFit
 
-TMS ioFit is an open-source Matlab-based toolbox for fast, accurate and automated estimation of neural recruitment or input-output (IO) curves and parameters with closed-loop transcranial magnetic stimulation (TMS) based on the Fisher information matrix (FIM) optimal sampling method. In the FIM-based optimal sampling method, the intensity of TMS pulses is chosen optimally from the location of maximum information. 
+TMS ioFit is an open-source Matlab-based toolbox for fast, accurate and automated estimation of neural recruitment or input-output (IO) curves and parameters with closed-loop transcranial magnetic stimulation (TMS) based on the Fisher information matrix (FIM) optimal sampling method, where the intensity of TMS pulses is chosen optimally and in a sequential manner from the location of maximum information. 
 
 TMS ioFit administers a train of TMS pulses, updates the estimation after each pulse, and continues the process until the IO curve and parameters are estimated with a desired level of accuracy.
 
