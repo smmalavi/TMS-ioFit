@@ -102,7 +102,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## Acknowledgement  
 
-![image](https://user-images.githubusercontent.com/46087039/234253579-4c41d2c8-a35a-4e2b-ac8b-c89f923a2bad.png)
+![image](https://user-images.githubusercontent.com/46087039/234254814-eefa15df-a78c-4a6f-aa68-59f600a017e9.png)
 
 ## Supports
 
