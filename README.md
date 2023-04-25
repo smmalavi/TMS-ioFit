@@ -106,7 +106,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## Supports
 
-For further techncial support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
+For further technical support, please feel free to contact us at mahdi.alavi.work[at]gmail.com
 
 ## References 
 [1] SMM Alavi, SM Goetz, AV Peterchev, “Optimal estimation of neural recruitment curves using Fisher information: Application to Transcranial Magnetic Stimulation,” IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27(6), pp. 1320 – 1330, 2019.
