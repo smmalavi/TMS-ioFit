@@ -74,6 +74,10 @@ A multidisciplinary research group has been contributing to the design and devel
 - S.M.Mahdi Alavi, PhD
 - Stefan Goetz, PhD
 - Angel Peterchev, PhD
+
+### Collaborator(s)
+
+- Mehrdad Saif, PhD
 - Fidel Vila-Rodriguez, MD, PhD, FRCPC, FAPA
 
 ### Students (A-Z)
